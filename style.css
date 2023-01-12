@@ -2,3 +2,143 @@ body{
 	padding: 0px 5vw;
 	background-color: #e7e8df;
 }
+
+header{
+	width: 90vw;
+	margin: 30px 0px 0px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+}
+
+#hamburguer-buttom{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#hamburguer-buttom img{height: 30px;}
+#hamburguer-buttom h2{
+	font-family: sans-serif;
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+#search-bar{
+	width: 20%;
+	background-color: white;
+	box-shadow: 0px 1px 3px black;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	border-radius: 15px;
+	padding: 0px 1%;
+}
+
+#search-bar img{height: 20px;}
+
+#search-bar input{
+	width: 90%;
+	height: 25px;
+	margin-left: 5px;
+	border: none;
+}
+
+#circle{
+	width: 5vw;
+	height: 5vw;
+	background-color: #444;
+	border-radius: 2.5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#circle div{
+	width: 3vw;
+	height: 3vw;
+	background-color: #e7e8df;
+	border-radius: 1.5vw;
+	display: flex;
+}
+
+#climate {
+	width: 25%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#climate img{
+	height: 30px;
+	margin-right: 20px;
+}
+
+#climate p{
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#temp-min{color: red;}
+#temp-max{color: blue;}
+
+#user-info{
+	display: flex;
+	align-items: center;
+}
+
+#notification{height: 20px;}
+#arrow-down{height: 10px;margin: 0px 5px 0px 10px}
+#image-profile{height: 35px;}
+
+main{
+	width: 90vw;
+	
+}
+
+#menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+#menu p{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#baner-01{
+	width: 100%;
+	border-top: 2px solid #888;
+	border-bottom: 2px solid #888;
+}
+
+#img-materia-01{
+	color: red;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	transform: translateY(-40px);
+}
+
+#img-materia-01 img{
+	width: 40%;
+	border-radius: 10px;
+}
+
+#texto-materia-01 {
+	position: relative;
+	width: 30%;
+	background-color: #c21336;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	font-family: sans-serif;
+}
