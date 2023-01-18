@@ -124,6 +124,13 @@ main{
 	font-size: 15px;
 	color: black;
 	text-decoration: none;
+	padding: 2px 0px;
+}
+
+
+#menu a:hover {
+    padding: 0px;
+    border-bottom: 2px solid black;
 }
 
 /*		Destaques		*/
@@ -133,6 +140,7 @@ main{
 	border-top: 2px solid #888;
 	border-bottom: 2px solid #888;
 	display: flex;
+	padding-bottom: 50px;
 }
 
 #matters-01{
@@ -141,22 +149,15 @@ main{
 	display: inline-block;
 }
 
+
 #img-matters-01{
-	width: 80%;
+	width: 70%;
 	color: red;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 	transform: translateY(-30px);
 }
-
-#img-matters-01 img{
-	width: 100%;
-	border-radius: 10px;
-}
-
-#texto-matters-01 h1{font-size: 25px;}
-#texto-matters-01 p{font-size: 13px;}
 
 #texto-matters-01{
 	width: 48%;
@@ -167,8 +168,27 @@ main{
 	font-family: sans-serif;
 	position: relative;
 	left: 40%;
-	top: -87%;
+	top: -100%;
 }
+
+#img-matters-01 div{
+	overflow: hidden;
+}
+
+#img-matters-01 img{
+	width: 100%;
+	border-radius: 10px;
+  	transition: all 0.5s;  
+    transform: scale(1);
+}
+
+#img-matters-01 img:hover{
+	transform: scale(1.2);
+}
+
+#texto-matters-01 a{color: white;text-decoration: none;}
+#texto-matters-01 h1{font-size: 25px;}
+#texto-matters-01 p{font-size: 20px;}
 
 .baner-01-matters{
 	width: 20%;
@@ -248,7 +268,7 @@ main{
 #left-cod-01{
 	padding: 0px 1.5vw;
 	width: 100%;
-	height: 37vh;
+	height: 46vh;
 	background-image: url("./images/matters/left/01.jpg");
 	margin-top: 10px;
 	border-radius: 10px;
@@ -265,13 +285,18 @@ main{
 	background-color: #7499d6;
 }
 
+#left-cod-01 div:hover{
+	padding-bottom: 30px;
+	transition: .3s;
+}
+
 #left-cod-01-title{
-	font-size: 10px;
+	font-size: 15px;
 	padding-top: 10px;
 }
 
 #left-cod-01-text{
-	font-size: 17px;
+	font-size: 25px;
 }
 
 #matters-right{
@@ -287,7 +312,7 @@ main{
 .matters-right-cod-2 article{
 	padding: 0px 2% 1%;
 	width: 44%;
-	height: 30vh;
+	height: 50vh;
 	display: flex;
 	align-items: flex-end;
 	justify-items: center;
@@ -455,13 +480,16 @@ footer{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	padding: 15px 0px;
 }
 
-footer p{
+footer p, a{
 	width: 40%;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 13px;
+	text-decoration: none;
+	color: white;
 }
 
 #footer-circle{
