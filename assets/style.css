@@ -177,6 +177,8 @@ main{
 
 #img-matters-01 div{
 	overflow: hidden;
+	border-radius: 10px;
+
 }
 
 #img-matters-01 img{
@@ -225,15 +227,6 @@ main{
 
 /*			matters 		 */
 
-.title{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.date{
-	font-size: 10px;
-}
-
 #matters{
 	display: flex;
 	justify-content: space-between;
@@ -248,7 +241,7 @@ main{
 }
 
 .simplified-matter-left{
-	padding: 10px 0vw;
+	padding: 10px 0px;
 	display: flex;
 	background-color: white;
 	width: 100%;
@@ -259,9 +252,18 @@ main{
 	justify-content: space-evenly;
 }
 
+.simplified-matter-left .title{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.simplified-matter-left .date{
+	font-size: 15px;
+}
+
 .simplified-matter-left img{
 	border-radius: 10px;
-	width: 40%;
+	width: 35%;
 }
 
 .simplified-matter-left div{
@@ -402,6 +404,15 @@ main{
 	color: black;
 }
 
+.simplified-matter-right .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.simplified-matter-right .date{
+	font-size: 10px;
+}
+
 .simplified-matter-right div{
 	display: flex;
 	flex-direction: column;
@@ -488,6 +499,125 @@ main{
 
 .video-button-pink{background-color: pink;}
 .video-text-pink{color: pink;font-weight: bold}
+
+
+
+/*			Some info 			*/
+
+
+
+#some-info{
+	margin-top: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#some-info article{
+	border-radius: 10px;
+}
+
+#some-info-cod-01{
+	width: 58%;
+}
+
+
+#some-info-cod-01 a{
+	padding: 0px 0vw;
+	width: 100%;
+	height: 55vh;
+	background-image: url("./images/matters/left/01.jpg");
+	margin-top: 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	text-decoration: none;
+}
+
+#some-info-cod-01 a div{
+	color: white;
+	font-family: sans-serif;
+	width: 100%;
+	padding: 10px;
+	background-color: #7499d6;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+#some-info-cod-01:hover div{
+	padding-bottom: 50px;
+}
+
+#some-info-cod-01-title{
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+#some-info-cod-01-text{
+	font-size: 25px;
+}
+
+#infos{
+	width: 40%;
+	height: 55vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+#info-horoscope{
+	width: 100%;
+	height: 48%;
+	background-color: blue;
+}
+
+#infos div{
+	width: 100%;
+	height: 48%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#info-stock-exchange{
+	width: 48%;
+	height: 100%;
+	background-color: blue;
+}
+
+#info-mega-sena{
+	width: 48%;
+	height: 100%;
+	background-color: blue;
+}
+
+
+
+/*			More simplified matters  			*/
+
+#more-simplified-matters{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#more-simplified-matters-left{
+	width: 58%;
+}
+
+#more-simplified-matters-right{
+	width: 40%;
+
+}
+
+
+
+
+
+
 
 
 /*			Footer 		*/
