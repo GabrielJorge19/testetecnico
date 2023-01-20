@@ -1,5 +1,9 @@
+*{
+	font-family: sans-serif;
+}
+
 html {
- 	font-size: 100%; //10px
+ 	font-size: 100%;
 }
 
 body{
@@ -31,9 +35,9 @@ header{
 
 #hamburguer-buttom img{height: 30px;}
 #hamburguer-buttom h2{
-	font-family: sans-serif;
 	font-size: 1em;
 	margin-left: 5px;
+	padding-top: 3px;
 }
 
 #search-bar{
@@ -90,7 +94,6 @@ header{
 
 #climate p{
 	margin: 0px;
-	font-family: sans-serif;
 	font-size: .75rem; //12px;
 	font-weight: bold;
 }
@@ -127,14 +130,12 @@ main{
 
 #menu a{
 	font-weight: bold;
-	font-family: sans-serif;
 	font-size: 1rem; //15px;
 	color: black;
 	text-decoration: none;
 	padding: 2px 0px;
 	transition: .1s;
 }
-
 
 #menu a:hover{
     padding: 0px;
@@ -153,7 +154,7 @@ main{
 
 #matters-01{
 	width: 60%;
-	height: 40vh;
+	height: 28vw;	//40vh;
 	display: inline-block;
 }
 
@@ -179,9 +180,8 @@ main{
 	width: 48%;
 	background-color: #c21336;
 	padding: 20px 30px 50px;
-	border-radius: 5px;
+	border-radius: 10px;
 	color: white;
-	font-family: sans-serif;
 	position: relative;
 	left: 40%;
 	top: -90%;
@@ -211,7 +211,7 @@ main{
 .baner-01-matters{
 	width: 20%;
 	margin-top: 30px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .baner-01-matters:hover h2{
@@ -221,18 +221,16 @@ main{
 .baner-01-matters img{
 	width: 95%;
 	height: 50%;
-	border-radius: 5px;
+	border-radius: 10px;
     object-fit: cover;
 }
 
 .baner-01-matters p{
 	margin-top: 20px;
 	font-size: 1rem; //15px;
-	font-family: sans-serif;
 }
 
 .baner-01-matters h2{
-	font-family: sans-serif;
 	font-size: 1.25rem; //20px;
 }
 
@@ -252,11 +250,11 @@ main{
 }
 
 .simplified-matter-left{
+	border-radius: 10px;
 	padding: 10px 0px;
 	display: flex;
 	background-color: white;
 	width: 100%;
-	font-family: sans-serif;
 	color: black;
 	text-decoration: none;
 	display: flex;
@@ -288,7 +286,7 @@ main{
 #left-cod-01{
 	padding: 0px 0vw;
 	width: 100%;
-	height: 43vh;
+	height: 30vw; //43vh;
 	background-image: url("./images/matters/left/01.jpg");
 	margin-top: 10px;
 	border-radius: 10px;
@@ -299,12 +297,11 @@ main{
 
 #left-cod-01 div{
 	color: white;
-	font-family: sans-serif;
 	width: 100%;
 	padding: 10px;
 	background-color: #7499d6;
 	border-radius: 10px;
-	transition: 1s;
+	transition: .3s;
 }
 
 #left-cod-01:hover div{
@@ -337,7 +334,7 @@ main{
 #matters-right-cod-2 article{
 	padding: 0px 2% 2%;
 	width: 44%;
-	height: 30vh;
+	height: 21vw; //30vh;
 	display: flex;
 	align-items: flex-end;
 	justify-items: center;
@@ -350,7 +347,6 @@ main{
 #matters-right-cod-2 article a{
 	color: white;
 	font-weight: bold;
-	font-family: sans-serif;
 	text-align: center;
 	font-size: 1rem; //20px;
 	text-decoration: none;
@@ -377,7 +373,7 @@ main{
 
 #matters-right-cod-1{
 	width: 90%;
-	height: 30vh;
+	height: 21vw; //30vh;
 	background-color: white;
 	border-radius: 10px;
 	background-image: 
@@ -385,7 +381,6 @@ main{
 	url("./images/matters/right/01.webp");
 	background-position: top center;
 	color: white;
-	font-family: sans-serif;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
@@ -430,7 +425,7 @@ main{
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 15px;
-	height: 65vh;
+	height: 44vw;	//65vh;
 }
 
 .simplified-matter-right-container{
@@ -442,8 +437,6 @@ main{
 	display: flex;
 	background-color: white;
 	width: 93%;
-	font-family: sans-serif;
-	
 	text-decoration: none;
 	color: black;
 }
@@ -481,7 +474,6 @@ main{
 }
 
 #featured-videos-title{
-	font-family: sans-serif;
 	font-size: 1.13rem; //18px;
 	transform: translateY(-25px);
 	background-color: #F2F2F2;
@@ -498,9 +490,8 @@ main{
 
 .featured-videos{
 	width: 24%;
-	height: 40vh;
+	height: 28vw;	//40vh;
 	border-radius: 10px;
-	font-family: sans-serif;
 	background-color: white;
 }
 
@@ -575,7 +566,7 @@ main{
 #some-info-cod-01 a{
 	padding: 0px 0vw;
 	width: 100%;
-	height: 55vh;
+	height: 38.4vw;	//55vh;
 	background-image: url("./images/matters/left/01.jpg");
 	margin-top: 10px;
 	border-radius: 10px;
@@ -586,12 +577,11 @@ main{
 
 #some-info-cod-01 a div{
 	color: white;
-	font-family: sans-serif;
 	width: 100%;
 	padding: 10px;
 	background-color: #7499d6;
 	border-radius: 10px;
-	transition: 1s;
+	transition: .3s;
 }
 
 #some-info-cod-01:hover div{
@@ -609,7 +599,7 @@ main{
 
 #infos{
 	width: 40%;
-	height: 55vh;
+	height: 38.4vw;	//55vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -622,7 +612,6 @@ main{
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	font-family: sans-serif;
 }
 
 #info-horoscope{
@@ -656,7 +645,6 @@ main{
 	height: 100%;
 	display: flex;
 	flex-direction: column;	
-	font-family: sans-serif;
 }
 
 #info-stock-exchange h1{
@@ -748,18 +736,11 @@ main{
 	justify-content: space-between;
 }
 
-
-
-
-
-
-
-
 /*			Footer 		*/
 
 footer{
 	width: 100%;
-	height: 10vh;
+	height: 7vw;	//10vh;
 	background-color: #444;
 	margin-top: 100px;
 	color: white;
@@ -772,7 +753,6 @@ footer{
 footer p, footer a{
 	width: 40%;
 	text-align: center;
-	font-family: sans-serif;
 	font-size: 0.8rem; //13px;
 	text-decoration: none;
 	color: white;
@@ -794,4 +774,35 @@ footer p, footer a{
 	background-color: #444;
 	border-radius: 1.5vw;
 	display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+	html {
+ 		font-size: 80%;
+ 	}
+
+	#texto-matters-01{
+		padding: 20px;
+		top: -100%;
+	}
+	#simplified-matter-right{
+		height: 46vw;
+	}
+	#info-mega-sena div{
+		width: 60%;
+	}
+	#info-mega-sena div p{
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;	
+		margin-bottom: 5px;
+	}
+}
+
+@media only screen and (min-width: 1100px){
+	html {font-size: 90%;}
+}
+
+@media only screen and (min-width: 1200px){
+	html {font-size: 100%;}
 }
