@@ -359,7 +359,7 @@ main{
 }
 
 #matters-right-cod-2 article:hover a{
-	padding-bottom: 50px;
+	text-decoration: underline;
 }
 
 #matters-right-cod-2-children-01{
