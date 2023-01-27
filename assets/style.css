@@ -113,6 +113,14 @@ header{
 
 /*			Main			*/
 
+/*	Categories	*/
+
+.categories{font-size: .7rem; //20px;font-weight: bold}
+.esporte{color: green;}
+.politica{color: red;}
+.entreterimento{color: #732061}
+.tv-and-famous{color: blue}
+
 main{
 	width: 90vw;
 	padding: 0px 4vw;
@@ -143,6 +151,9 @@ main{
 }
 
 /*		Destaques		*/
+
+.categories{font-size: 0.7rem; //22px;}
+
 
 #highlights{
 	width: 100%;
@@ -176,10 +187,10 @@ main{
 	transform: translateY(-30px);
 }
 
-#texto-matters-01{
+#texto-matters-01{ 
 	width: 48%;
 	background-color: #c21336;
-	padding: 20px 30px 50px;
+	padding: 20px 30px 40px;
 	border-radius: 10px;
 	color: white;
 	position: relative;
@@ -207,11 +218,29 @@ main{
 #texto-matters-01 a{color: white;text-decoration: none;}
 #texto-matters-01 h1{font-size: 1.4rem; //23px;}
 #texto-matters-01 p{font-size: 1rem; //15px;}
+.pages{
+	width: 35%;
+	height: 3px;
+	margin: 30px 0px 0px 60%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.pages div{
+	height: 100%;
+	width: 30%;
+	border-radius: 2px;
+}
+
+#page-activated{background-color: white;}
+#page-disabled{background-color: rgba(255, 255, 255, .4);}
+
 
 .baner-01-matters{
 	width: 20%;
 	margin-top: 30px;
 	border-radius: 10px;
+	font-weight: bold;
 }
 
 .baner-01-matters:hover h2{
@@ -227,7 +256,6 @@ main{
 
 .baner-01-matters p{
 	margin-top: 20px;
-	font-size: 1rem; //15px;
 }
 
 .baner-01-matters h2{
@@ -259,15 +287,17 @@ main{
 	text-decoration: none;
 	display: flex;
 	justify-content: space-evenly;
-}
-
-.simplified-matter-left .title{
-	font-size: 1.3rem; //22px;
 	font-weight: bold;
 }
 
+
+
+.simplified-matter-left .title{
+	font-size: 1.1rem; //22px;
+}
+
 .simplified-matter-left .date{
-	font-size: 1rem; //15px;
+	font-size: .7rem; //15px;
 }
 
 .simplified-matter-left img{
@@ -295,7 +325,7 @@ main{
 	text-decoration: none;
 }
 
-#left-cod-01 div{
+.left-cod-01-info{
 	color: white;
 	width: 100%;
 	padding: 10px;
@@ -304,7 +334,7 @@ main{
 	transition: .3s;
 }
 
-#left-cod-01:hover div{
+#left-cod-01:hover .left-cod-01-info{
 	padding-bottom: 50px;
 }
 
@@ -315,6 +345,12 @@ main{
 
 #left-cod-01-text{
 	font-size: 1.6rem; //25px;
+}
+
+.left-cod-01-info .pages{
+	margin: 30px 0px 30px 75%;
+	padding: 0px;
+	width: 20%;
 }
 
 .simplified-matter-right:hover .title, .simplified-matter-left:hover .title{
@@ -345,13 +381,22 @@ main{
 }	
 
 #matters-right-cod-2 article a{
+	margin: 0px auto;
+	width: 90%;
 	color: white;
 	font-weight: bold;
-	text-align: center;
-	font-size: 1rem; //20px;
+	text-align: left;
 	text-decoration: none;
 	transition: .3s ease;
 	padding-bottom: 1rem;
+}
+
+#matters-right-cod-2 article h2{
+	font-size: 1rem; //20px;
+}
+
+#matters-right-cod-2 article p{
+	font-size: .6rem; //20px;
 }
 
 #matters-right-cod-2 article:hover{
@@ -439,15 +484,15 @@ main{
 	width: 93%;
 	text-decoration: none;
 	color: black;
+	font-weight: bold;
+}
+
+.categories{
+	font-size: .7rem; //20px;
 }
 
 .simplified-matter-right .title{
 	font-size: 1rem; //20px;
-	font-weight: bold;
-}
-
-.simplified-matter-right .date{
-	font-size: .63rem; //10px;
 }
 
 .simplified-matter-right div{
@@ -515,9 +560,23 @@ main{
 	display: flex;
 	flex-direction: column;
 	padding: 0px 20px;
-	transform: translateY(-20px);
+	transform: translateY(-45px);
 }
 
+.video-time{
+	width: 50px;
+	padding: 3px 6px;
+	border-radius: 30px;
+	position: relative;
+	top: -7vw;
+	left: 75%;
+	background-color: red;
+	font-size: .9rem; //10px;
+	color: white;
+	
+	font-weight: bold;
+	text-align: center;
+}
 .play-button{
 	width: 40px;
 	height: 40px;
@@ -529,7 +588,7 @@ main{
 }
 
 .play-button img{width: 50%;}
-.video-info p{font-size: .63rem; //10px;}
+
 
 .video-button-blue{background-color: blue;}
 .video-text-blue{color: blue;font-weight: bold}
@@ -575,7 +634,7 @@ main{
 	text-decoration: none;
 }
 
-#some-info-cod-01 a div{
+#some-info-cod-01 a .left-cod-01-info{
 	color: white;
 	width: 100%;
 	padding: 10px;
@@ -584,7 +643,7 @@ main{
 	transition: .3s;
 }
 
-#some-info-cod-01:hover div{
+#some-info-cod-01:hover .left-cod-01-info{
 	padding-bottom: 50px;
 }
 
@@ -626,6 +685,7 @@ main{
 
 #sign{
 	color: blue;
+	font-weight: bold;
 }
 
 #sign-description{
@@ -720,6 +780,7 @@ main{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
+	font-weight: bold;
 }
 
 #more-simplified-matters-left{
